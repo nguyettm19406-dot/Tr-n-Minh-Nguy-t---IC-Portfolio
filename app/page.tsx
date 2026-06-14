@@ -276,8 +276,18 @@ export default function PortfolioPage() {
           ))}
         </nav>
 
-        {/* Notion Portfolio Link */}
-        <div className="flex items-center gap-2">
+        {/* Notion Portfolio Link & Tải CV */}
+        <div className="flex items-center gap-2 flex-wrap">
+          <a
+            href="https://drive.google.com/file/d/13rm1hkNi8iedbI9KrqkzVEz35EDlNKCl/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="quick-download-cv-btn"
+            className="flex items-center gap-2 px-4 py-2 bg-[#10B981] hover:bg-[#059669] text-white font-bold text-xs uppercase tracking-wider rounded-md border-2 border-[#111827] hover:scale-105 active:scale-95 transition-all duration-200 shadow-none"
+          >
+            <FileText className="w-4 h-4 text-white" />
+            <span>Tải CV</span>
+          </a>
           <a
             href="https://app.notion.com/p/Internal-Communications-Portfolio-3766cb172e2880f7bc8ee41635ef3ac4?source=copy_link"
             target="_blank"
@@ -356,6 +366,17 @@ export default function PortfolioPage() {
               >
                 <span>Xem bản Notion chi tiết</span>
                 <Bookmark className="w-5 h-5 text-[#3B82F6]" />
+              </a>
+
+              <a
+                href="https://drive.google.com/file/d/13rm1hkNi8iedbI9KrqkzVEz35EDlNKCl/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="hero-cta-cv"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 h-14 px-8 bg-[#10B981] hover:bg-[#059669] text-white font-extrabold rounded-md shadow-none hover:scale-105 active:scale-95 transition-all duration-200 border-4 border-[#111827]"
+              >
+                <span>Tải CV cá nhân</span>
+                <FileText className="w-5 h-5 text-white" />
               </a>
             </div>
           </div>
