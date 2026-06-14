@@ -279,7 +279,7 @@ export default function PortfolioPage() {
         {/* Notion Portfolio Link & Tải CV */}
         <div className="flex items-center gap-2 flex-wrap">
           <a
-            href="https://drive.google.com/file/d/13rm1hkNi8iedbI9KrqkzVEz35EDlNKCl/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ozVzloz3f6LmOzhy22XeGL5Px3t6ZZZi/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             id="quick-download-cv-btn"
@@ -369,7 +369,7 @@ export default function PortfolioPage() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/13rm1hkNi8iedbI9KrqkzVEz35EDlNKCl/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ozVzloz3f6LmOzhy22XeGL5Px3t6ZZZi/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 id="hero-cta-cv"
